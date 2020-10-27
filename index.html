@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lab 4 Dom Mini Challenges</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="candy-container">
+        <p class="total">Total: $0.00</p>
+    <button data-price="2.00" class="candyButton">Lime Cola</button>
+    <button data-price="3.00" class="candyButton">Salted Peanuts</button>
+    <button data-price="4.00" class="candyButton">Chocolate Bar</button>
+    <button data-price="6.00" class="candyButton">Fruit Gummies</button>
+</div>
+            <div class="makeMoney">
+        <form class="coinForm">
+            <label for="howMany">How Many?</label>
+            <input type="number"
+            id="howMany"/>
+            <label for="whichCoin">Which Coin?</label>
+           <select name="whichCoin"
+            id="whichCoin">
+            <option value="penny" class="penny">Penny</option>
+            <option value="nickel" class="nickel">Nickel</option>
+            <option value="dime" class="dime">Dime</option>
+            <option value="quarter" class="quarter">Quarter</option></select>
+                        <button class="button">Make Money!</button>
+        </form>
+        <div class="coin-container"></div>
+    </div>
+    <div class="bulb-container">
+        <div class="light-bulb">Light Bulb</div>
+        <button class="onbutton opbutton">On</button>
+        <button class="offbutton opbutton">Off</button>
+        <button class="togglebutton opbutton">Toggle</button>
+        <button class="endbutton opbutton">End</button>
+        
+
+    </div>
+      <script src="script.js"></script>  
+</body>
+</html>
